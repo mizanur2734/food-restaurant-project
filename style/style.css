@@ -169,7 +169,7 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 40px;
 }
 
 #main-content .content .title-3 {
@@ -181,3 +181,79 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+#card-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Work Sans;
+}
+
+.img-container {
+    width: 50%;
+    background-image: url(../assets/foods.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-container {
+    background-color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.box-container .heading-1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.box-container .heading-2 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    margin-top: 20px;
+
+}
+
+.box-container .heading-3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+.home-icon img{
+   height: 40px;
+   padding: 10px;
+   margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Work Sans;
+  }
